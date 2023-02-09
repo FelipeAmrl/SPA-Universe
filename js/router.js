@@ -1,4 +1,4 @@
-import { changePageStyle } from "./index.js"
+import { changePageStyle } from "./changeStyle.js"
 
 export class Router 
 {
