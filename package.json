@@ -1,7 +1,6 @@
 {
   "name": "spa---universe",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "accepts": "^1.3.8",
@@ -144,5 +143,15 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeAmrl/SPA-Universe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FelipeAmrl/SPA-Universe/issues"
+  },
+  "homepage": "https://github.com/FelipeAmrl/SPA-Universe#readme",
+  "description": ""
 }

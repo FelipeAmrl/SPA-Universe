@@ -1,3 +1,5 @@
+import { changePageStyle } from "./index.js"
+
 export class Router 
 {
     routes = {};
@@ -5,7 +7,6 @@ export class Router
     add(routeName, page)
     {
         this.routes[routeName] = page;
-        console.log(this.routes);
     }
 
     route(event) 
@@ -32,6 +33,8 @@ export class Router
             document.querySelector('#app').innerHTML = body;
         }
         )
+
+        changePageStyle(route);
 
         return route;
     }

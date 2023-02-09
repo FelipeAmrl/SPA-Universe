@@ -25,17 +25,17 @@ body
     font-weight: normal;
 }
 
-.home
+.home, .milkway
 {
     background-image: url("./assets/1.png");
 }
 
-.universe 
+.universe
 {
     background-image: url("./assets/2.png");
 }
 
-.exploration
+.exploration, .solarsystem
 {
     background-image: url("./assets/3.png");
 }
@@ -158,9 +158,35 @@ main button:hover
     margin-inline: auto;
 }
 
-.universe main, .exploration main
+.universe main, .exploration main, #milk-way-text, #solar-system-text
 {
     max-width: 64.8rem;
     margin-top: 6.3rem;
     margin-left: 10.2rem;
 }
+
+.milkway main, .solarsystem main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.2rem;
+}
+
+#milk-way-img 
+{
+    width: 100%;
+    max-width: 70rem;
+    height: auto;
+    margin-right: 6.3rem;
+}
+
+#solar-system-img
+{
+    width: 100%;
+    max-width: 60rem;
+    height: auto;
+    margin-top: 6.3rem;
+    margin-right: 10.2rem;
+}
+
